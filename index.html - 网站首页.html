@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一个简洁现代的个人网站模板">
+    <title>My Site - 个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== 导航栏 ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">My<span>Site</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">特性</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== Hero 区域 ===== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="hero-badge">欢迎来到我的网站</span>
+            <h1 class="hero-title">
+                打造属于你的<br><span class="highlight">数字空间</span>
+            </h1>
+            <p class="hero-subtitle">
+                一个简洁、现代、响应式的网站模板。开箱即用，轻松部署，让你的想法快速上线。
+            </p>
+            <div class="hero-actions">
+                <a href="#features" class="btn btn-primary">了解更多</a>
+                <a href="#about" class="btn btn-secondary">关于我们</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 特性区域 ===== -->
+    <section class="section" id="features">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">核心特性</span>
+                <h2 class="section-title">为什么选择我们</h2>
+                <p class="section-desc">简单、高效、美观，一切为了更好的用户体验</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">极速加载</h3>
+                    <p class="feature-desc">
+                        纯静态页面，无多余依赖，打开即见内容。轻量代码保证在任何网络环境下都能快速响应。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">响应式设计</h3>
+                    <p class="feature-desc">
+                        从手机到桌面，完美适配各种屏幕尺寸。移动端优先的设计理念，确保每个设备都有最佳体验。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">易于维护</h3>
+                    <p class="feature-desc">
+                        清晰的文件结构和注释，方便二次开发。HTML、CSS、JS 分离，修改任何部分都不会影响其他。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">安全可靠</h3>
+                    <p class="feature-desc">
+                        纯前端静态站点，无服务器漏洞风险。标准 W3C 代码，兼容所有现代浏览器。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">高度可定制</h3>
+                    <p class="feature-desc">
+                        CSS 变量统一管理颜色、间距、圆角。修改几个变量即可整体换肤，轻松打造专属风格。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">开箱即用</h3>
+                    <p class="feature-desc">
+                        下载即用，无需构建工具和复杂配置。双击 index.html 即可在浏览器中预览，部署到任何静态托管平台。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 关于区域 ===== -->
+    <section class="section about" id="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-label">关于我们</span>
+                    <h2>简单而强大的<br>网站解决方案</h2>
+                    <p>
+                        我们相信好的网站不需要复杂的技术栈。这个模板用最基础的 HTML、CSS 和 JavaScript 构建，
+                        却能提供专业级的视觉效果和交互体验。
+                    </p>
+                    <p>
+                        无论是个人作品集、企业官网还是产品落地页，这个模板都能作为你坚实的起点。
+                        代码结构清晰，注释完善，即使是初学者也能轻松上手修改。
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">静态页面</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="0">0</span>
+                            <span class="stat-label">依赖库</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">响应式</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <svg viewBox="0 0 24 24">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 页脚 ===== -->
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">My<span>Site</span></a>
+                    <p>一个简洁现代的个人网站模板，助力你的数字 presence。</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>导航</h4>
+                        <a href="#home">首页</a>
+                        <a href="#features">特性</a>
+                        <a href="#about">关于</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>资源</h4>
+                        <a href="#">文档</a>
+                        <a href="#">更新日志</a>
+                        <a href="#">许可证</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>联系</h4>
+                        <a href="mailto:hello@example.com">邮箱</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">微博</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MySite. 保留所有权利。</p>
+                <p>用 HTML + CSS + JS 构建</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
